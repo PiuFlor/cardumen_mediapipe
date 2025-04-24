@@ -7,7 +7,7 @@ This project evaluates MediaPipe object detection model performance on videos an
 ### 1. Clone the repository (if not already done):
 ```bash
 git clone <repo-url>
-cd mediapipe_object_detection
+cd cardumen_mediapipe
 ```
 
 ### 2. Create a virtual environment
