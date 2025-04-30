@@ -9,7 +9,7 @@ from mediapipe.tasks.python import vision
 from mediapipe.tasks.python import BaseOptions
 import cv2
 
-videos_dir = "./cardumen_mediapipe/Data"
+videos_dir = "./cardumen_mediapipe/Video"
 resultados_dir = "./cardumen_mediapipe/resultados"
 modelo_mediapipe = "./cardumen_mediapipe/Models/efficientdet_lite0_pf16.tflite" # Ruta al modelo de MediaPipe
 

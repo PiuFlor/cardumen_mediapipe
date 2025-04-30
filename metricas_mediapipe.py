@@ -8,9 +8,9 @@ from mediapipe.tasks.python import vision
 from mediapipe.tasks.python import BaseOptions
 import cv2
 
-videos_dir = "./cardumen_mediapipe/Data"
+videos_dir = "./cardumen_mediapipe/Video"
 resultados_dir = "./cardumen_mediapipe/resultados"
-modelo_mediapipe = "./cardumen_mediapipe/Models/efficientdet_lite0_pf16.tflite" # Ruta al modelo de MediaPipe
+modelo_mediapipe = "./cardumen_mediapipe/Models/ssd_mobilenet_v2_int8.tflite" # Ruta al modelo de MediaPipe
 
 # Crear carpeta de resultados si no existe
 os.makedirs(resultados_dir, exist_ok=True)
